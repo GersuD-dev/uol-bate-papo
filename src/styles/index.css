@@ -1,16 +1,18 @@
-:root{
-    --bg-color: rgb(219, 212, 212);
-    --primary-color: rgb(60, 177, 60);
+:root {
+    --bg-color: #E0E0E0;
+    --primary-color: #84CD7B;
 }
 
-html,body{
-    background: var(--bg-color);
+html, body {
     height: 100%;
+    background: var(--bg-color); 
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
 }
+
 @import './header.css';
-@import './messeges.css';
+@import './messages.css';
+@import './footer.css';
